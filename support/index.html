@@ -9,50 +9,80 @@
   <link rel="stylesheet" href="../styles.css">
 
   <style>
+  .support-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 30px 80px;
+  }
+
+  .support-logo {
+    display: block;
+    width: 190px;
+    max-width: 100%;
+    margin: 0 auto 35px;
+  }
+
+  .support-page > h1 {
+    text-align: center;
+    margin: 0 0 15px;
+  }
+
+  .support-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0 auto 65px;
+  }
+
+  .support-section,
+  .support-contact {
+    width: 100%;
+    margin: 0 0 55px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .support-section h2,
+  .support-contact h2 {
+    margin: 0 0 16px;
+  }
+
+  .support-section p,
+  .support-contact p {
+    margin: 0 0 16px;
+    line-height: 1.7;
+  }
+
+  .support-contact {
+    background: none;
+    border-radius: 0;
+  }
+
+  .support-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 700px) {
     .support-page {
-      max-width: 850px;
-      margin: 0 auto;
-      padding: 60px 24px;
+      padding: 35px 20px 60px;
     }
 
     .support-logo {
-      display: block;
-      max-width: 180px;
-      margin: 0 auto 35px;
-    }
-
-    .support-page h1 {
-      text-align: center;
-      margin-bottom: 15px;
+      width: 160px;
     }
 
     .support-intro {
-      text-align: center;
-      font-size: 1.1rem;
-      margin-bottom: 50px;
+      margin-bottom: 45px;
     }
 
-    .support-section {
+    .support-section,
+    .support-contact {
       margin-bottom: 40px;
     }
-
-    .support-section h2 {
-      margin-bottom: 12px;
-    }
-
-    .support-contact {
-      padding: 25px;
-      border-radius: 16px;
-      background: rgba(255, 255, 255, 0.06);
-      margin: 30px 0;
-    }
-
-    .support-footer {
-      text-align: center;
-      margin-top: 60px;
-      font-size: 0.95rem;
-    }
-  </style>
+  }
+</style>
 </head>
 
 <body>
